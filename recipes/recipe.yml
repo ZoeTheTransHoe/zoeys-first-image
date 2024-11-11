@@ -21,7 +21,6 @@ modules:
       https://packages.microsoft.com/keys/microsoft.asc
     install:
       code
-
     remove:
       firefox
       firefox-langpacks 
