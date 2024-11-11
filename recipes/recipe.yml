@@ -16,9 +16,9 @@ modules:
         destination: / # copies files/system/* (* means everything inside it) into your image's root folder /
 
   - type: gnome-extensions
-    - 6433
-    - 615
-    - 6670
+    install:
+      - 6433
+      - 615
       - 6670
                 
   - type: rpm-ostree
@@ -38,7 +38,7 @@ modules:
   - type: default-flatpaks
     notify: true # Send notification after install/uninstall is finished (true/false)
     user:
-      repo-name: flathub
+      repo-name: flathub-user
       repo-url: https://dl.flathub.org/repo/flathub.flatpakrepo
       repo-title: "Flathub" # Optional; this sets the remote's user-facing name in graphical frontends like GNOME Software
       install:
