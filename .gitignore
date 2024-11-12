@@ -1,4 +1,4 @@
 cosign.key
 cosign.private
 /Containerfile
-/iso_output
+iso-output/deploy.iso
