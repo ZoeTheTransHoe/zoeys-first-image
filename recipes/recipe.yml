@@ -22,15 +22,10 @@ modules:
       - 6670
                 
   - type: rpm-ostree
-    repos:
-      - https://packages.microsoft.com/yumrepos/vscode.repo
-    keys:
-      - https://packages.microsoft.com/keys/microsoft.asc
     install:
       - hyfetch
       - vim
       - hugo
-      - code
     remove:
       - firefox
       - firefox-langpacks 
