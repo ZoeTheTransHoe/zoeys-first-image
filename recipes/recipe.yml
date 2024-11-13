@@ -61,7 +61,6 @@ modules:
         - com.valvesoftware.Steam
         - org.freedesktop.Platform.VulkanLayer.MangoHud
         - com.obsproject.Studio
-        - org.freedesktop.Platform.GStreamer.gstreamer-vaapi
         - com.obsproject.Studio.Plugin.Gstreamer
         - com.heroicgameslauncher.hgl
         #Music/Content-Creation
