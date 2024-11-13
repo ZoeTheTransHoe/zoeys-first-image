@@ -64,7 +64,7 @@ modules:
         - dev.zed.Zed
         #Gaming
         - com.valvesoftware.Steam
-        - org.freedesktop.Platform.VulkanLayer.MangoHud
+        - org.freedesktop.Platform.VulkanLayer.MangoHud//24.08
         - com.obsproject.Studio
         - com.obsproject.Studio.Plugin.Gstreamer
         - com.heroicgameslauncher.hgl
