@@ -22,12 +22,17 @@ modules:
       - 6670
                 
   - type: rpm-ostree
+    repos:
+      - https://packages.microsoft.com/yumrepos/vscode/config.repo
     install:
       - hyfetch
       - vim
       - hugo
       - gnome-boxes
       - fish
+      - code
+      - steam-devices
+      - gnome-shell-extension-appindicator
     remove:
       - firefox
       - firefox-langpacks 
@@ -41,22 +46,28 @@ modules:
       repo-url: https://dl.flathub.org/repo/flathub.flatpakrepo
       repo-title: "Flathub" # Optional; this sets the remote's user-facing name in graphical frontends like GNOME Software
       install:
+        #Essentials
         - org.mozilla.firefox
-        - io.github.alainm23.planify
-        - io.github.finefindus.Hieroglyphic
-        - com.github.johnfactotum.Foliate
-        - org.sigxcpu.Livi
-        - com.notesnook.Notesnook
-        - dev.vencord.Vesktop
-        - org.kde.krita
         - org.mozilla.Thunderbird
         - com.ulduzsoft.Birdtray
         - io.gitlab.theevilskeleton.Upscaler
-        - com.github.neithern.g4music
-        - io.github.shiftey.Desktop
+        - io.github.alainm23.planify
+        - dev.vencord.Vesktop
+        #Office
+        - com.notesnook.Notesnook
+        - org.libreoffice.LibreOffice
         - com.github.flxzt.rnote
         - com.github.johnfactotum.Foliate
         - com.toolstack.Folio
+        - io.github.finefindus.Hieroglyphic
+        #Programming
+        - io.github.shiftey.Desktop #Github Desktop Linux
+        - dev.zed.Zed
+        #Gaming
+        #Music/Content-Creation
+        - com.github.neithern.g4music
+        - org.kde.krita
+
         #GNOME Desktop 
         - org.gnome.Loupe
         - net.nokyan.Resources
@@ -74,9 +85,12 @@ modules:
         - org.gnome.clocks
         - org.sigxcpu.Livi
         - org.gnome.Logs
+        - org.gnome.NautilusPreviewer
 
       remove:
       # - org.gnome.eog
 
   - type: signing # this sets up the proper policy & signing files for signed images to work fully
-
+  - type: gschema-overrides
+      include:
+        - zz1-silverblue-aly.gschema.override

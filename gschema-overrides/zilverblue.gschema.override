@@ -1,0 +1,11 @@
+[org.gnome.shell] 
+enabled-extensions = ['background-logo@fedorahosted.org', 'appindicatorsupport@rgcjonas.gmail.com', 'appmenu-is-back|@fthx', `Bluetooth-Battery-Meter@maniacx.github.com`]
+
+[org.fedorahosted.background-logo-extension]
+logo-always-visible=true
+
+[org.gnome.desktop.search-providers]
+enabled = ['org.gnome.Calendar.desktop', 'org.gnome.Weather.desktop', 'org.gnome.Contacts.desktop', 'org.gnome.Calculator.desktop', 'org.gnome.Characters.desktop', 'org.gnome.clocks.desktop
+
+[org.gnome.software]
+packaging-format-preference = ['flatpak:flathub', 'flatpak:fedora-testing', 'flatpak:fedora', 'r
