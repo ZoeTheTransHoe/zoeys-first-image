@@ -6,3 +6,6 @@ logo-always-visible=true
 
 [org.gnome.desktop.search-providers]
 enabled = ['org.gnome.Contacts.desktop', 'org.gnome.Boxes.desktop', 'org.gnome.Calculator.desktop', 'org.gnome.Calendar.desktop', 'org.gnome.Characters.desktop', 'org.gnome.clocks.desktop', 'org.gnome.Weather.desktop']
+
+[org.gnome.mutter]
+experimental-features = ['scale-monitor-framebuffer', 'kms-modifiers', 'autoclose-xwayland', 'variable-refresh-rate', 'xwayland-native-scaling']

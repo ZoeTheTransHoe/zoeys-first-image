@@ -60,7 +60,8 @@ modules:
         #Gaming
         - com.valvesoftware.Steam
         - org.freedesktop.Platform.VulkanLayer.MangoHud
-        - com.obsproject.Studio
+        - com.obsproject.S
+        tudio
         - com.obsproject.Studio.Plugin.Gstreamer
         - com.heroicgameslauncher.hgl
         #Music/Content-Creation
@@ -97,4 +98,4 @@ modules:
   - type: signing # this sets up the proper policy & signing files for signed images to work fully
   - type: gschema-overrides
     include:
-        - zilverblue.gschema.override
+        - zz1-zilverblue.gschema.override
