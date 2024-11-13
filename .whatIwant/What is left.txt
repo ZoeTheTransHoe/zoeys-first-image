@@ -1,0 +1,33 @@
+What I want out of my custom Fedora Silverblue spin:
+MUSTS: 
+Programs I Want OOTB:
+- Intellij Toolbox
+- Zola
+Flatpaks:
+- Only repo is Flathub as user (no Fedora Flatpaks)
+Programs I want from Flathub:
+Would Like:
+- Fedora Silverblue ASCII Logo in Hyfetch
+- Hyfetch To Remove Useless Rows (WM Theme, Bluetooth, BIOS, Network, Terminal, Terminal Font,Shell, Editor) + Add Music
+- Enable VRR OOTB
+- GNOME Extensions 
+	- Maybe Tray Icons + Bluetooth Battery Indicator?
+	- App Menu Is Back
+- Gaming Related Packages:
+	- Steam (RPM) 
+	- Mangohud + Goverlay (RPM + Flatpaks)
+	- Heroic Games Launcher (Flatpak)
+	- OBS (Flatpak + VAAPI Plugins)
+- Music + Video Projects
+	- Musescore
+	- Reaper
+	- Ardour
+	- Audacity
+	- Kdenlive
+- Add Linux Kernel Permaters to fix flickering bug on AMD Igpus.
+- Custom Wallpapers
+- Purple GNOME Accent Colours
+- Miku Cursor :3
+- Libreoffice OOTB (May increase filesize too much however)
+- Have A Arch, Ubuntu + Fedora Toolbox OOTB
+- Expand Notesnook Flatpak to have access to all of home to avoid issue with uploading photos
