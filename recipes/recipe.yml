@@ -16,9 +16,11 @@ modules:
         destination: / # copies files/system/* (* means everything inside it) into your image's root folder /                
   - type: gnome-extensions
     install:
-      - 6433
-      - 615
-      - 6670
+      - 6433 # App Menu Is Back
+      - 615  # AppIndicator Support
+      - 6670 # Bluetooth Battery Meter
+      - 4691 # PIP On Top
+      - 517  # Caffeine
   - type: rpm-ostree
     repos:
       - https://copr.fedorainfracloud.org/coprs/fz0x1/zola/repo/fedora-41/fz0x1-zola-%OS_VERSION%.repo
