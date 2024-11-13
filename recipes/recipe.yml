@@ -21,6 +21,7 @@ modules:
       - 6670
   - type: rpm-ostree
     repos:
+      - https://copr.fedorainfracloud.org/coprs/fz0x1/zola/repo/fedora-41/fz0x1-zola-%OS_VERSION%.repo
       - https://packages.microsoft.com/yumrepos/vscode/config.repo
     install:
       - hyfetch
@@ -32,11 +33,14 @@ modules:
       - steam-devices
       - gnome-shell-extension-appindicator
       - goverlay
+      - zola
     remove:
       - firefox
       - firefox-langpacks 
       - gnome-tweaks
       - nvtop
+      - yelp
+      - gnome-tour
   - type: default-flatpaks
     notify: true # Send notification after install/uninstall is finished (true/false)
     user:
