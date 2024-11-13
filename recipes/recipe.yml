@@ -26,12 +26,12 @@ modules:
       - code
       - steam-devices
       - gnome-shell-extension-appindicator
+      - goverlay
     remove:
       - firefox
       - firefox-langpacks 
       - gnome-tweaks
       - nvtop
-
   - type: default-flatpaks
     notify: true # Send notification after install/uninstall is finished (true/false)
     user:
@@ -58,10 +58,21 @@ modules:
         - io.github.shiftey.Desktop #Github Desktop Linux
         - dev.zed.Zed
         #Gaming
+        - com.valvesoftware.Steam
+        - org.freedesktop.Platform.VulkanLayer.MangoHud
+        - com.obsproject.Studio
+        - org.freedesktop.Platform.GStreamer.gstreamer-vaapi
+        - com.obsproject.Studio.Plugin.Gstreamer
+        - com.heroicgameslauncher.hgl
         #Music/Content-Creation
         - com.github.neithern.g4music
         - org.kde.krita
-
+        - org.musescore.MuseScore
+        - fm.reaper.Reaper
+        - org.audacityteam.Audacity
+        - org.kde.kdenlive
+        - org.ardour.Ardour
+        - org.zrythm.Zrythm
         #GNOME Desktop 
         - org.gnome.Loupe
         - net.nokyan.Resources

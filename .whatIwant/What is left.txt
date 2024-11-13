@@ -5,7 +5,7 @@ Programs I Want OOTB:
 - Zola
 Flatpaks:
 - Only repo is Flathub as user (no Fedora Flatpaks)
-Programs I want from Flathub:
+
 Would Like:
 - Fedora Silverblue ASCII Logo in Hyfetch
 - Hyfetch To Remove Useless Rows (WM Theme, Bluetooth, BIOS, Network, Terminal, Terminal Font,Shell, Editor) + Add Music
@@ -28,6 +28,5 @@ Would Like:
 - Custom Wallpapers
 - Purple GNOME Accent Colours
 - Miku Cursor :3
-- Libreoffice OOTB (May increase filesize too much however)
 - Have A Arch, Ubuntu + Fedora Toolbox OOTB
 - Expand Notesnook Flatpak to have access to all of home to avoid issue with uploading photos
