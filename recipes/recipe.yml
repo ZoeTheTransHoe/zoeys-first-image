@@ -60,6 +60,7 @@ modules:
         - com.github.johnfactotum.Foliate
         - com.toolstack.Folio
         - io.github.finefindus.Hieroglyphic
+        - org.zotero.Zotero
         #Programming
         - io.github.shiftey.Desktop #Github Desktop Linux
         - dev.zed.Zed
