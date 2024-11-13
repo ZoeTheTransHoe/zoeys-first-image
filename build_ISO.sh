@@ -1,0 +1,1 @@
+sudo podman run --rm --privileged --volume ./iso-output:/build-container-installer/build --security-opt label=disable --pull=newer ghcr.io/jasonn3/build-container-installer:latest IMAGE_REPO=ghcr.io/zoethetranshoe/zoeys-first-image IMAGE_NAME=weird-os IMAGE_TAG=latest VARIANT=Silverblue VERSION=41
