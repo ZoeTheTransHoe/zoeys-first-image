@@ -1,4 +1,4 @@
-[org.gnome.shell] 
+[org.gnome.shell]
 enabled-extensions = ['background-logo@fedorahosted.org', 'appindicatorsupport@rgcjonas.gmail.com', 'appmenu-is-back@fthx', 'Bluetooth-Battery-Meter@maniacx.github.com', 'pip-on-top]
 
 [org.fedorahosted.background-logo-extension]
