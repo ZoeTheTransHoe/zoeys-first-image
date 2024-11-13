@@ -1,5 +1,5 @@
 [org.gnome.shell]
-enabled-extensions = ['background-logo@fedorahosted.org', 'appindicatorsupport@rgcjonas.gmail.com', 'appmenu-is-back@fthx', 'Bluetooth-Battery-Meter@maniacx.github.com', 'pip-on-top]
+enabled-extensions = ['background-logo@fedorahosted.org', 'vertical-workspaces@G-dH.github.com', 'caffeine@patapon.info', 'appindicatorsupport@rgcjonas.gmail.com', 'Bluetooth-Battery-Meter@maniacx.github.com', 'pip-on-top@rafostar.github.com', 'clipboard-indicator@tudmotu.com', 'appmenu-is-back@fthx']
 
 [org.fedorahosted.background-logo-extension]
 logo-always-visible=true
