@@ -12,7 +12,7 @@ experimental-features = ['scale-monitor-framebuffer', 'kms-modifiers', 'autoclos
 
 [org.gnome.desktop.interface]
 accent-color = 'purple'
-color-scheme = `prefer-dark`
+color-scheme = 'prefer-dark'
 
 [org.fedorahosted.background-logo-extension]
 logo-border = 20
