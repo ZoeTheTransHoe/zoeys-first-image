@@ -38,6 +38,8 @@ modules:
       - goverlay
       - zola
       - rhythmbox
+      - rhythmbox-alternative-toolbar
+      - yt-dlp
     remove:
       - firefox
       - firefox-langpacks 
