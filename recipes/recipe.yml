@@ -14,6 +14,7 @@ modules:
     files:
       - source: system
         destination: / # copies files/system/* (* means everything inside it) into your image's root folder /                
+      - usr: /usr
   - type: gnome-extensions
     install:
       - 6433 # App Menu Is Back
@@ -36,6 +37,7 @@ modules:
       - gnome-shell-extension-appindicator
       - goverlay
       - zola
+      - rhythmbox
     remove:
       - firefox
       - firefox-langpacks 
@@ -108,3 +110,5 @@ modules:
   - type: gschema-overrides
     include:
         - zz1-zilverblue.gschema.override
+
+        
