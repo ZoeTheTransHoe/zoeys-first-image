@@ -9,3 +9,11 @@ enabled = ['org.gnome.Contacts.desktop', 'org.gnome.Boxes.desktop', 'org.gnome.C
 
 [org.gnome.mutter]
 experimental-features = ['scale-monitor-framebuffer', 'kms-modifiers', 'autoclose-xwayland', 'variable-refresh-rate', 'xwayland-native-scaling']
+
+[org.gnome.desktop.interface]
+accent-color = purple
+
+[org.fedorahosted.background-logo-extension]
+logo-border = 20
+logo-size = 9.5147679324894519
+logo-opacity = 170
