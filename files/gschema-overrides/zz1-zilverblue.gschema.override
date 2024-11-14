@@ -11,9 +11,14 @@ enabled = ['org.gnome.Contacts.desktop', 'org.gnome.Boxes.desktop', 'org.gnome.C
 experimental-features = ['scale-monitor-framebuffer', 'kms-modifiers', 'autoclose-xwayland', 'variable-refresh-rate', 'xwayland-native-scaling']
 
 [org.gnome.desktop.interface]
-accent-color = purple
+accent-color = 'purple'
+color-scheme = `prefer- dark`
 
 [org.fedorahosted.background-logo-extension]
 logo-border = 20
 logo-size = 9.5147679324894519
 logo-opacity = 170
+
+[org.gnome.desktop.background]
+picture-uri = `file:///usr/share/backgrounds/emoutable/F33.png`
+picture-uri-dark = `file:///usr/share/backgrounds/emoutable/F28-Final-Release.png`
