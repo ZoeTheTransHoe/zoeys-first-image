@@ -77,6 +77,8 @@ modules:
         - com.obsproject.Studio
         - com.obsproject.Studio.Plugin.Gstreamer
         - com.heroicgameslauncher.hgl
+        - org.prismlauncher.PrismLauncher
+        - org.gnome.DejaDup
         #Music/Content-Creation
         - com.github.neithern.g4music
         - org.kde.krita

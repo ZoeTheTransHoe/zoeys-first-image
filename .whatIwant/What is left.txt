@@ -6,6 +6,7 @@ Programs I Want OOTB:
 Would Like:
 - Fedora Silverblue ASCII Logo in Hyfetch
 - Hyfetch To Remove Useless Rows (WM Theme, Bluetooth, BIOS, Network, Terminal, Terminal Font,Shell, Editor) + Add Music
+
 - Add Linux Kernel Permaters to fix flickering bug on AMD Igpus.
 - Custom Wallpapers [ONGOING]
 - Miku Cursor :3
