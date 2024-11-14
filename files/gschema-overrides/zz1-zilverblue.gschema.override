@@ -20,5 +20,5 @@ logo-size = 9.5147679324894519
 logo-opacity = 170
 
 [org.gnome.desktop.background]
-picture-uri = `file:///usr/share/backgrounds/emoutable/F33.png`
-picture-uri-dark = `file:///usr/share/backgrounds/emoutable/F28-Final-Release.png`
+picture-uri = 'file:///usr/share/backgrounds/emoutable/F33.png'
+picture-uri-dark = 'file:///usr/share/backgrounds/emoutable/F28-Final-Release.png'
