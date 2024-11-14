@@ -6,13 +6,8 @@ Programs I Want OOTB:
 Would Like:
 - Fedora Silverblue ASCII Logo in Hyfetch
 - Hyfetch To Remove Useless Rows (WM Theme, Bluetooth, BIOS, Network, Terminal, Terminal Font,Shell, Editor) + Add Music
-- Gaming Related Packages:
-	- Mangohud + Goverlay (RPM + Flatpaks)
-	- OBS (Flatpak + VAAPI Plugins)
-
 - Add Linux Kernel Permaters to fix flickering bug on AMD Igpus.
-- Custom Wallpapers
-- Purple GNOME Accent Colours
+- Custom Wallpapers [ONGOING]
 - Miku Cursor :3
 - Have A Arch, Ubuntu + Fedora Toolbox OOTB
 - Expand Notesnook Flatpak to have access to all of home to avoid issue with uploading photos

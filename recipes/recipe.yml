@@ -104,6 +104,8 @@ modules:
         - org.sigxcpu.Livi
         - org.gnome.Logs
         - org.gnome.NautilusPreviewer
+        - com.obsproject.Studio.Plugin.GStreamerVaapi
+        - com.obsproject.Studio.Plugin.Gstreamer
 
       remove:
       # - org.gnome.eog
