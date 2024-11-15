@@ -9,3 +9,4 @@ Would Like:
 - Expand Notesnook Flatpak to have access to all of home to avoid issue with uploading photos
 - Intellij Toolbox installed OOTB (COPR Repo Mabye?)
 - Kionite + Plasma Mobile Spin:
+- Nvidia, Surface Spins.
