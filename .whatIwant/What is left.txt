@@ -1,16 +1,11 @@
-What I want out of my custom Fedora Silverblue spin:
-MUSTS: 
-Programs I Want OOTB:
-- Intellij Toolbox
+What I want out of my custom Fedora Immutable spin:
 
 Would Like:
 - Fedora Silverblue ASCII Logo in Hyfetch
 - Hyfetch To Remove Useless Rows (WM Theme, Bluetooth, BIOS, Network, Terminal, Terminal Font,Shell, Editor) + Add Music
-
 - Add Linux Kernel Permaters to fix flickering bug on AMD Igpus.
-- Custom Wallpapers [ONGOING]
 - Miku Cursor :3
 - Have A Arch, Ubuntu + Fedora Toolbox OOTB
 - Expand Notesnook Flatpak to have access to all of home to avoid issue with uploading photos
-
+- Intellij Toolbox installed OOTB (COPR Repo Mabye?)
 - Kionite + Plasma Mobile Spin:
