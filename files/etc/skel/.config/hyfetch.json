@@ -2,7 +2,7 @@
     "preset": "transgender",
     "mode": "rgb",
     "light_dark": "dark",
-    "lightness": 0.65,
+    "lightness": 0.1,
     "color_align": {
         "mode": "horizontal",
         "custom_colors": [],
@@ -13,7 +13,7 @@
     },
     "backend": "neofetch",
     "args": null,
-    "distro": null,
+    "distro": "silverblue",
     "pride_month_shown": [],
     "pride_month_disable": false
 }
