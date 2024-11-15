@@ -25,8 +25,8 @@ modules:
       - 517  # Caffeine
   - type: rpm-ostree
     repos:
-      - https://copr.fedorainfracloud.org/coprs/fz0x1/zola/repo/fedora-41/fz0x1-zola-%OS_VERSION%.repo
-      - https://copr.fedorainfracloud.org/coprs/medzik/jetbrains/repo/fedora-41/medzik-jetbrains-%OS_VERSION%.repo
+      - https://copr.fedorainfracloud.org/coprs/fz0x1/zola/repo/fedora-%OS_VERSION%/fz0x1-zola-%OS_VERSION%.repo
+      - https://copr.fedorainfracloud.org/coprs/medzik/jetbrains/repo/fedora-%OS_VERSION%/medzik-jetbrains-%OS_VERSION%.repo
       - https://packages.microsoft.com/yumrepos/vscode/config.repo
     install:
       - hyfetch
@@ -36,7 +36,6 @@ modules:
       - fish
       - code
       - steam-devices
-      - gnome-shell-extension-appindicator
       - goverlay
       - zola
       - rhythmbox
@@ -44,7 +43,7 @@ modules:
       - yt-dlp
       - pycharm-community
       - intellij-idea-community
-      - andriod-studio
+      - android-studio
       - webstorm
       - rustrover
     remove:
