@@ -85,7 +85,7 @@ modules:
         - com.obsproject.Studio.Plugin.Gstreamer
         - com.heroicgameslauncher.hgl
         - org.prismlauncher.PrismLauncher
-        - org.gnome.DejaDup
+        - com.github.mtkennerly.ludusavi
         #Music/Content-Creation
         - com.github.neithern.g4music
         - org.kde.krita
@@ -96,6 +96,7 @@ modules:
         - org.ardour.Ardour
         - org.zrythm.Zrythm
         #GNOME Desktop 
+        - org.gnome.DejaDup
         - org.gnome.Loupe
         - net.nokyan.Resources
         - org.gnome.Calculator
@@ -115,6 +116,7 @@ modules:
         - org.gnome.NautilusPreviewer
         - com.obsproject.Studio.Plugin.GStreamerVaapi
         - com.obsproject.Studio.Plugin.Gstreamer
+        - org.gnome.Builder
 
       remove:
       # - org.gnome.eog
