@@ -10,8 +10,8 @@ image-version: latest # latest is also supported if you want new updates ASAP
 # module configuration, executed in order
 # you can include multiple instances of the same module
 modules:
-  - type: akmods:
-    base: surface
+  - type: akmods
+    - base: surface
   - type: files
     files:
       - source: system
