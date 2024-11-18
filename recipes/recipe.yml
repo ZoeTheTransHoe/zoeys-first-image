@@ -80,9 +80,7 @@ modules:
         #Programming
         - io.github.shiftey.Desktop #Github Desktop Linux
         - dev.zed.Zed
-
-        #Gnome Development.
-        - org.gnome.Builder
+        - org.gnome.design.IconLibrary
         #Gaming
         - com.valvesoftware.Steam
         - com.obsproject.Studio
