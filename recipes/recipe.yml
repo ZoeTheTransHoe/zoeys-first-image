@@ -76,7 +76,6 @@ modules:
         - com.toolstack.Folio
         - io.github.finefindus.Hieroglyphic
         - org.zotero.Zotero
-        - com.slack.Slack
         #Programming
         - io.github.shiftey.Desktop #Github Desktop Linux
         - dev.zed.Zed
@@ -98,7 +97,6 @@ modules:
         - org.kde.kdenlive
         - org.ardour.Ardour
         - org.zrythm.Zrythm
-        - fr.handbrake.ghb
         #GNOME Desktop 
         - org.gnome.DejaDup
         - org.gnome.Loupe
